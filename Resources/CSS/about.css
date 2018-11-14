@@ -1,0 +1,182 @@
+/*
+
+My Custom CSS
+=============
+-For IT704
+
+*/
+	html, body{
+	margin: 0px;
+	background-color: #0e0a0b;
+	}
+	
+	a{
+	text-decoration: none;
+	color: #fcfcfc;
+	}
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+
+
+/* --------------------------------------
+   Header and Navbar
+   -------------------------------------- */
+	#webcontent{
+		width: 1000px;
+		margin: 0 auto;
+	}
+	
+	#header{
+		width: 100%;
+	}
+	
+	#navbar{
+		font-weight: bold;
+		z-index: 1;
+		margin-top: -4%;
+		padding-top: 1%;
+		padding-bottom: 1%;
+		width: 100%;
+		float: right;
+		color: #fcfcfc;
+		font-family: arial;
+		background-color: #cea958;
+	}
+	
+	#about{
+		text-shadow: 0 0 3px #668066, 0 0 15px #E6E6B8;
+		color: #5b1d0e;
+		text-decoration: underline;
+		float: right;
+		cursor: pointer;
+		display: inline-block;
+		width: 16%;
+		text-align: center;
+	}
+	
+	.navigation{
+		float: right;
+		cursor: pointer;
+		display: inline-block;
+		width: 16%;
+		text-align: center;
+	}
+	
+	.navigation:hover{
+		color: #5b1d0e;
+	}
+	
+	#logoPrem{
+		padding-left: 2%;
+		padding-top: .5%;
+		height: 90px;
+	}
+	
+/* --------------------------------------
+   Content/Body
+   -------------------------------------- */
+	#content{
+		padding-top: 10px;
+		padding-bottom: 10px;
+		text-align: center;
+		width: 100%;
+	}
+	
+	#reservation{
+		z-index: 2;
+		float: right;
+		margin-top: 1%;
+		color: #5b1d0e; 	
+	}
+	
+	#notepad{
+		margin-left: -10%;
+	}
+	
+	#textReserve{
+		z-index: 3;
+		margin-top: -330px;
+		margin-left: -1%;
+	}
+	
+	#booknow{
+		margin-left: 8%;
+	}
+	
+	#booknow:hover{
+		width:62%;
+	}
+	
+	.bx-wrapper ul li { 
+	height: 410px;
+	}
+	
+	#theSlider{
+		float: right;
+		z-index: -5;
+		margin-top: 3px;
+		margin-right: 4%;
+		width: 70%;
+	}
+	
+/* --------------------------------------
+   Footer
+   -------------------------------------- */
+	#footer{
+		text-align: right;
+		padding-right: 1%;
+		font-weight: bold;
+		padding-top: 1%;
+		padding-bottom: 1%;
+		width: 100%;
+		float: right;
+		color: #fcfcfc;
+		font-family: arial;
+		background-color: #cea958;
+	}
+	
+/* --------------------------------------
+   Modal
+   -------------------------------------- */
+  
+  
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+	
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+	
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+
+
+}
+
+
+
